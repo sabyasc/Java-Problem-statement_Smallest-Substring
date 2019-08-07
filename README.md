@@ -21,3 +21,12 @@ installed git bash in my WINDOWS 10 system.
 Followed by these commands I've created, added, commited and pushed (published in cloud GitHub) the code from local directories to GitHub Platform.
 
 Commands of Git (As it is not mentioned in file) : 
+
+
+KIIT@SabyaPC MINGW64 /c/Users/kiit/desktop
+$ cd Sub_string
+
+KIIT@SabyaPC MINGW64 /c/Users/kiit/desktop/Sub_string
+$ ls
+
+KIIT@SabyaPC MINGW64 /c/Users/kiit/desktop/Sub_string
