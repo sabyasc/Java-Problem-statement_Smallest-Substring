@@ -27,7 +27,7 @@ public class Substr {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String s;
-        System.out.println("Enter the string :");
+        System.out.println("Enter the string of your choice :");
         s=sc.next();
         System.out.println(getLength(s));
                 
