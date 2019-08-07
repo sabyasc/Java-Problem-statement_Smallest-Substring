@@ -6,19 +6,21 @@ I am Sabyasachi Chakraborty (18MCA0234-Reg no) from VIT,Vellore and have uploade
 The statment has given a problem to find the length of smallesr substring and save the file.
 Afterwards the code should be stored in git,heroku or aws and link should be provided in Google form.
 
-Step -1 I have firstly executed the Code using Netbeans in JAVA, file name has been saved as substr so that class name can be easily written.
+**Step -1 I have firstly executed the Code using Netbeans in JAVA, file name has been saved as substr so that class name can be easily written.
 Given INPUT was - abcda and OUTPUT - 4 
 Executed and saved in local file and folder name is "Sub string".
 
-Step - 2 Created one repository in GitHub by the given name of "Java-Problem-statement_Smallest-Substring".
+**Step - 2 Created one repository in GitHub by the given name of "Java-Problem-statement_Smallest-Substring".
 Initialized the READ.me form to give the essential information of the code and process.
 
-Step - 3 Created the folder in my system desktop called "Sub string"
+**Step - 3 Created the folder in my system desktop called "Sub string"
 In there I've copied the code of (substr) substr.java
 
-Step - 4 Downloaded GIT from https://git-scm.com/
+**Step - 4
+Downloaded GIT from https://git-scm.com/
 installed git bash in my WINDOWS 10 system.
-Followed by these commands I've created, added, commited and pushed (published in cloud GitHub) the code from local directories to GitHub Platform.
+
+**Followed by these commands I've created, added, commited and pushed (published in cloud GitHub) the code from local directories to GitHub Platform.
 
 Commands of Git (As it is not mentioned in file) : 
 
@@ -133,3 +135,73 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
+
+Step - 5 Few changes and updates are also made, another alternate file has been created and stored in same above process
+In case the primary does not run, file is called **Substr1.java.
+
+**Followed by these commands moved, added, commited, pushed (published in cloud GitHub) and git difftool HEAD to compare code with previous version has been used, moved from local directories to GitHub Platform.
+
+KIIT@SabyaPC MINGW64 /c/Users/kiit/desktop/Sub_string/Java-Problem-statement_Smallest-Substring (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Substr1.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Substr.java
+        modified:   Substr1.java
+
+
+KIIT@SabyaPC MINGW64 /c/Users/kiit/desktop/Sub_string/Java-Problem-statement_Smallest-Substring (master)
+$ git add Substr.java
+
+KIIT@SabyaPC MINGW64 /c/Users/kiit/desktop/Sub_string/Java-Problem-statement_Smallest-Substring (master)
+$ git commit -m 'code has been updated for comment and show of usage of git difftool HEAD'
+[master f57fc78] code has been updated for comment and show of usage of git difftool HEAD
+ 2 files changed, 40 insertions(+), 1 deletion(-)
+ create mode 100644 Substr1.java
+
+KIIT@SabyaPC MINGW64 /c/Users/kiit/desktop/Sub_string/Java-Problem-statement_Smallest-Substring (master)
+$ git difftool HEAD
+
+This message is displayed because 'diff.tool' is not configured.
+See 'git difftool --tool-help' or 'git help config' for more details.
+'git difftool' will now attempt to use one of the following tools:
+opendiff kdiff3 tkdiff xxdiff meld kompare gvimdiff diffuse diffmerge ecmerge p4merge araxis bc codecompare smerge emerge vimdiff
+
+Viewing (1/1): 'Substr1.java'
+Launch 'vimdiff' [Y/n]? Y
+
+ package substr;                                           |  package substr1;                                                                                                     |
+  import java.util.HashSet;                                 |  import java.util.HashSet;
+  import java.util.*;                                       |  import java.util.*;
+                                                            |
+  public class Substr {                                     |  public class Substr1 {                                                                                               |
+    public static int  getLength(String str) {              |    public static int  getLength(String str) {
+      int preInd = 0, currInd = 0, maxLength = 0;           |      int preInd = 0, currInd = 0, maxLength = 0;
+      int strLength = str.length();                         |      int strLength = str.length();
+      HashSet<Character> characterSet = new HashSet<>();    |      HashSet<Character> characterSet = new HashSet<>();
+                                                            |
++ +-- 11 lines: while (currInd < strLength) {---------------|+ +-- 11 lines: while (currInd < strLength) {--------------      return maxLength;                                     |      return maxLength;
+    }                                                       |    }
+                                                            |
+      public static void main(String[] args){               |      public static void main(String[] args){
+          Scanner sc = new Scanner(System.in);              |          Scanner sc = new Scanner(System.in);
+          String s;                                         |          String s;
+          System.out.println("Enter the string :");         |          System.out.println("Enter the string with :");             s=sc.next();                                      |          s=sc.next();
+          System.out.println(getLength(s));                 |          System.out.println(getLength(s));
+                                                            |
+      }                                                     |      }
+  }                                                         |  }
+                                                            |
++ +--  3 lines: --------------------------------------------|+ +--  3 lines: -------------------------------------------
+  
+  
+  
