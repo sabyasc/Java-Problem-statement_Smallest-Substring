@@ -136,9 +136,7 @@ Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
 
-Step - 5 Few changes and updates are also made, another alternate file has been created and stored in same above process
-In case the primary does not run, file is called **Substr1.java.
-
+**Step - 5 Few changes and updates are also made for git difftool feature
 **Followed by these commands moved, added, commited, pushed (published in cloud GitHub) and git difftool HEAD to compare code with previous version has been used, moved from local directories to GitHub Platform.
 
 KIIT@SabyaPC MINGW64 /c/Users/kiit/desktop/Sub_string/Java-Problem-statement_Smallest-Substring (master)
@@ -203,5 +201,5 @@ Launch 'vimdiff' [Y/n]? Y
                                                             |
 + +--  3 lines: --------------------------------------------|+ +--  3 lines: -------------------------------------------
   
-  
+ 
   
