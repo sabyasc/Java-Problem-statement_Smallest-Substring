@@ -137,7 +137,7 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
 
 **Step - 5 Few changes and updates are also made for git difftool feature
-**Followed by these commands moved, added, commited, pushed (published in cloud GitHub) and git difftool HEAD to compare code with previous version has been used, moved from local directories to GitHub Platform.
+**Followed by these commands moved, added, commited, git pull, pushed (published in cloud GitHub) and git difftool HEAD to compare code with previous version has been used, moved from local directories to GitHub Platform.
 
 KIIT@SabyaPC MINGW64 /c/Users/kiit/desktop/Sub_string/Java-Problem-statement_Smallest-Substring (master)
 $ git status
@@ -202,4 +202,34 @@ Launch 'vimdiff' [Y/n]? Y
 + +--  3 lines: --------------------------------------------|+ +--  3 lines: -------------------------------------------
   
  
-  
+KIIT@SabyaPC MINGW64 /c/Users/kiit/desktop/sub_string/Java-Problem-statement_Smallest-Substring (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    Substr1.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .Substr1.java.swp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+KIIT@SabyaPC MINGW64 /c/Users/kiit/desktop/sub_string/Java-Problem-statement_Smallest-Substring (master)
+$ git pull
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/Byte-Box/Java-Problem-statement_Smallest-Substring
+   3b498bd..8736cb3  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ README.md | 185 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 180 insertions(+), 5 deletions(-)
